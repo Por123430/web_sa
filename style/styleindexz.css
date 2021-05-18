@@ -1,0 +1,130 @@
+body{
+    background-color:#FDED62;
+    margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1520px;
+    height: 50px;
+    margin: 0 auto;
+}
+.menubar{
+    height: 150px;
+    width: 100%;       
+    box-shadow: 0 0 10px black;
+}
+.menubar h1 a{
+    text-decoration: none;
+    margin: 0;
+    font-size: 64px;
+    color: #747966;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.menubar .logo{
+    float: left;    
+}
+.menubar ul{
+    list-style: none;
+    float: right;
+
+}
+.menubar ul li{
+    float: left;
+    margin-right: 120px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #747966;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    
+}
+.slide{
+   overflow: hidden;
+}
+.slide figure img{
+    width: 20%;
+    height: 350px;
+    float: left;
+}
+.slide figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: op 20s infinite;
+}
+@keyframes op{
+    0%{left: 0%;}
+    10%{left: 0%;}
+    25%{left: -100%;}
+    35%{left: -100%;}
+    50%{left: -200%;}
+    65%{left: -200%;}
+    75%{left: -300%;}
+    85%{left: -300%;}
+    100%{left: -400%;}    
+}
+#product-grid{
+    margin: 60px;
+}
+
+#produuct-grid .txt-heading{
+    margin-bottom: 18px;
+    font-size: 24px;
+    color: #747966;
+}
+
+.product-item{
+    float: left;
+    background: #747966;
+    margin: 50px 50px 42px 42px;
+    border: #e0e0e0 1px solid;
+}
+.product-image{
+    height: 180px;
+    width: 180px;
+    background-color:#747966;
+}
+
+.clear-float{
+    clear: both;
+}
+
+.tbl-cart{
+    font-size: 0.9em;
+}
+.tbl-cart th{
+    font-weight: normal;
+}
+.product-title{
+    margin-bottom: 20px;
+}
+.product-price{
+    float: left;
+}
+.product-action{
+    float: right;
+    margin-left: 20px;
+}
+.product-quantity{
+    padding: 2px 2px;
+    border-radius: 3px;
+    border: #e0e0e0 1px solid;
+}
+.product-title-footer{
+    padding: 15px 15px 0 15px;
+    overflow: auto;
+}
+.cart-item-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: #e0e0e0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}

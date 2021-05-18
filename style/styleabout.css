@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #747966;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.skewed-bg{
+    background: #FDED62;
+    padding: 200px 0;
+    transform: skew(0deg,-10deg);
+    margin-top: -200px;
+}
+.skewed-bg .content{
+    transform: skew(0deg,10deg);
+    text-align: left;    
+}
+.skewed-bg .content .title{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 90px;
+    color:  #747966;
+}
+.skewed-bg .content h4{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 32px;
+    color:  #747966;
+}
+.footer{
+    padding-top: 160px;
+    padding-left: 80%;
+}
+.footer a{
+    font-size: 50px;
+    color: #FDED62;
+    text-decoration: none;
+    float: right;
+}
+
